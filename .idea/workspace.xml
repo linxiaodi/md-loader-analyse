@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64013ae8-a4c8-4bf1-a547-5e7e0b90194e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test-module/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-module/loader.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-module/markdown-it.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+    <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kzzdNks96d0oOkz2nw6wXbBoBr" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="markdown-it-container.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-module/markdown-it-container.js" working-dir="$PROJECT_DIR$/test-module">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.markdown-it-container.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64013ae8-a4c8-4bf1-a547-5e7e0b90194e" name="Default Changelist" comment="" />
+      <created>1606718295958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606718295958</updated>
+      <workItem from="1606718297191" duration="2960000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1920" height="389" key="GridCell.Tab.0.bottom" timestamp="1606719260576">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.0.bottom/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260576" />
+    <state width="1920" height="389" key="GridCell.Tab.0.center" timestamp="1606719260573">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.0.center/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260573" />
+    <state width="1920" height="389" key="GridCell.Tab.0.left" timestamp="1606719260570">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.0.left/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260570" />
+    <state width="1920" height="389" key="GridCell.Tab.0.right" timestamp="1606719260574">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.0.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260574" />
+    <state width="1920" height="389" key="GridCell.Tab.1.bottom" timestamp="1606719260582">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.1.bottom/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260582" />
+    <state width="1920" height="389" key="GridCell.Tab.1.center" timestamp="1606719260578">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.1.center/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260578" />
+    <state width="1920" height="389" key="GridCell.Tab.1.left" timestamp="1606719260577">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.1.left/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260577" />
+    <state width="1920" height="389" key="GridCell.Tab.1.right" timestamp="1606719260580">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.1.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260580" />
+    <state width="1920" height="389" key="GridCell.Tab.2.bottom" timestamp="1606719260588">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.2.bottom/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260588" />
+    <state width="1920" height="389" key="GridCell.Tab.2.center" timestamp="1606719260585">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.2.center/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260585" />
+    <state width="1920" height="389" key="GridCell.Tab.2.left" timestamp="1606719260583">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.2.left/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260583" />
+    <state width="1920" height="389" key="GridCell.Tab.2.right" timestamp="1606719260586">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.2.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260586" />
+    <state width="1920" height="389" key="GridCell.Tab.3.bottom" timestamp="1606719260594">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.3.bottom/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260594" />
+    <state width="1920" height="389" key="GridCell.Tab.3.center" timestamp="1606719260591">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.3.center/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260591" />
+    <state width="1920" height="389" key="GridCell.Tab.3.left" timestamp="1606719260590">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.3.left/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260590" />
+    <state width="1920" height="389" key="GridCell.Tab.3.right" timestamp="1606719260593">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="389" key="GridCell.Tab.3.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1606719260593" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test-module/markdown-it-container.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="tokens[&quot;20&quot;].nesting" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
