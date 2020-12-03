@@ -32,4 +32,8 @@ const res2 = md2.use(require('markdown-it-container'), 'demo', {
   },
 })
 
-console.log(res2.render(testContent))
+fs.writeFile('markdown-it-container-convert.test2.md', res2.render(testContent), (err) => {
+  if (err) {
+    console.log(err);
+  }
+})
