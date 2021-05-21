@@ -1,6 +1,6 @@
 const fs = require('fs')
 const fileStr = fs.readFileSync('./test.md', 'utf-8')
-const { stripTemplate, stripScript, genInlineComponentText } = require('./utils')
+const { stripContent } = require('./utils')
 let md = require('markdown-it')();
 
 md.use(require('markdown-it-container'), 'demo', {
@@ -13,12 +13,12 @@ md.use(require('markdown-it-container'), 'demo', {
 		if (tokens[idx].nesting === 1) {
 			const description = m && m.length > 1 ? m[1] : ''
 			const content = tokens[idx + 1].type === 'fence' ? tokens[idx + 1].content : ''
-			return `<demo-block>
-        ${description ? `<div>${md.render(description)}</div>` : ''}
-        <!--element-demo: ${content}:element-demo-->
+			return `<DemoBlock display={<!--element-demo: ${content}:element-demo-->}
+         ${description && 'desc={'+ md.render(description) +'}'}
+         highlight={
         `
 		}
-		return '</demo-block>'
+		return '}></DemoBlock>'
 	},
 });
 
@@ -41,12 +41,9 @@ const loader = (filStr) => {
 		output.push(content.slice(start, commentStart))
 
 		const commentContent = content.slice(commentStart + startTagLen, commentEnd)
-		const html = stripTemplate(commentContent)
-		const script = stripScript(commentContent)
-		let demoComponentContent = genInlineComponentText(html, script)
-		const demoComponentName = `element-demo${id}`
-		output.push(`<template #source><${demoComponentName} /></template>`)
-		componenetsString += `${JSON.stringify(demoComponentName)}: ${demoComponentContent},`
+		const { component, trigger, source } = stripContent(commentContent)
+		output.push(trigger)
+		componenetsString += component;
 		// 重新计算下一次的位置
 		id++
 		start = commentEnd + endTagLen
@@ -56,31 +53,21 @@ const loader = (filStr) => {
 
 	output.push(content.slice(start))
 
-	let pageScript = ''
-	if (componenetsString) {
-		pageScript = `<script lang="ts">
-      import * as Vue from 'vue';
-      export default {
-        name: 'component-doc',
-        components: {
-          ${componenetsString}
-        }
-      }
-    </script>`
-	}
-
 	const result = `
-  <template>
-    <section class="content element-doc">
-      ${output.join('')}
-    </section>
-  </template>
-  ${pageScript}
+		import React from 'react';
+		import ReactDOM from 'react-dom'
+		${componenetsString}
+		const Ret = () => (
+	    <section class="content element-doc">
+	      ${output.join('')}
+	    </section>
+    )
+    export default Ret
   `
 	return result
 }
 
-fs.writeFile('demo.vue', loader(fileStr), (err) => {
+fs.writeFile('demo.jsx', loader(fileStr), (err) => {
 	if (err) {
 		console.log(err);
 	}

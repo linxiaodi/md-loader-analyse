@@ -10,12 +10,14 @@
 ```html
 <template>
   <div>{{ name }}</div>
+  <div @click="count++">{{ count }}</div>
 </template>
 <script>
   export default {
     data () {
       return {
-        name: 'linxiaodi'
+        name: 'linxiaodi',
+        count: 0
       }
     }
   }
